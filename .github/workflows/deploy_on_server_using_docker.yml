@@ -1,6 +1,6 @@
 name: docker_deploy
 
-run-name: Docker build and deploy on server.
+run-name: Docker build and deploy on server using actions.
 
 env:
   IMAGE_NAME: ghcr.io/${{ github.repository }}
