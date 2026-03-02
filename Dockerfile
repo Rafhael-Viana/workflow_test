@@ -1,7 +1,7 @@
 FROM python:3.12-slim
 WORKDIR  /app
 
-# 🔹 deps necessárias pro mariadb (mariadb_config) + compilação
+# deps necessárias pro mariadb (mariadb_config) + compilação
 RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential \
   pkg-config \
