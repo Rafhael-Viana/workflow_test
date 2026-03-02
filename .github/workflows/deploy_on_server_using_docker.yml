@@ -2,6 +2,10 @@ name: docker_deploy
 
 run-name: Docker build and deploy on server.
 
+env:
+  IMAGE_NAME: ghrc.io/${{ github.repository }}
+  TAG: latest
+
 on:
   push:
     branches:
